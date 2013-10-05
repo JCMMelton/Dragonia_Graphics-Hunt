@@ -507,6 +507,7 @@ class warrior:
             print 'Your Heroic Slash {0} for {1} damage.'.format(self.dict[random.randrange(0,5)],self.damage)
     
     def f_ability1(self):
+    	self.damage = 0
     	self.tactics = 3
         drawText('Your prepare yourself for battle!',font,windowSurface,0,0,TEXTCOLOR)
     	print "You prepare your self for battle!"
